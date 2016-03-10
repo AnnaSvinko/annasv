@@ -1,1 +1,7 @@
-
+JMP start
+a: DB 14 
+b: DB 09	
+start:	MOV A, [a]    
+	MOV B, [b]
+	ADD A,B
+	  HLT      
